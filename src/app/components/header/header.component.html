@@ -9,27 +9,27 @@
         <div class="hidden lg:flex">
             <ul class="flex justify-end gap-12 items-center">
                 <li>
-                    <a routerLink="#" class="text-base text-black">
+                    <button class="text-base text-black" (click)="toHome()">
                         Home
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a routerLink="#" class="text-base text-black">
+                    <a routerLink="#" class="text-base text-black" (click)="toAboutUs()">
                         About US
                     </a>
                 </li>
                 <li>
-                    <a routerLink="#" class="text-base text-black">
+                    <a routerLink="#" class="text-base text-black" (click)="toRecommendation()">
                         Recommendation
                     </a>
                 </li>
                 <li>
-                    <a routerLink="#" class="text-base text-black">
+                    <a routerLink="#" class="text-base text-black" (click)="toClients()">
                         Clients
                     </a>
                 </li>
                 <li>
-                    <a routerLink="#" class="text-base text-black">
+                    <a routerLink="#" class="text-base text-black" (click)="toContact()">
                         Contact US
                     </a>
                 </li>
@@ -46,30 +46,30 @@
         </div>
         <div class="flex justify-center">
             <ul class="text-center pt-10">
-                <li class="py-4 text-white" (click)="closeNav()">
-                    <a routerLink="#">
+                <li class="py-4 text-white" (click)="closeNav()" (click)="toHome()">
+                    <button>
                         Home
-                    </a>
+                    </button>
                 </li>
-                <li class="py-4 text-white" (click)="closeNav()">
-                    <a routerLink="#">
+                <li class="py-4 text-white" (click)="closeNav()" (click)="toAboutUs()">
+                    <button>
                         About US
-                    </a>
+                    </button>
                 </li>
-                <li class="py-4 text-white" (click)="closeNav()">
-                    <a routerLink="#">
+                <li class="py-4 text-white" (click)="closeNav()" (click)="toRecommendation()">
+                    <button>
                         Recommendation
-                    </a>
+                    </button>
                 </li>
-                <li class="py-4 text-white" (click)="closeNav()">
-                    <a routerLink="#">
+                <li class="py-4 text-white" (click)="closeNav()" (click)="toClients()">
+                    <button>
                         Clients
-                    </a>
+                    </button>
                 </li>
-                <li class="py-4 text-white" (click)="closeNav()">
-                    <a routerLink="#">
+                <li class="py-4 text-white" (click)="closeNav()" (click)="toContact()">
+                    <button>
                         Contact US
-                    </a>
+                    </button>
                 </li>
             </ul>
         </div>

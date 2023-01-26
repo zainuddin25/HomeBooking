@@ -18,4 +18,33 @@ export class HeaderComponent {
     this.status = "hidden"
   }
 
+  toHome() {
+    document.getElementById("home")?.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
+  toAboutUs() {
+    document.getElementById("about")?.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
+  toRecommendation() {
+    document.getElementById("home")?.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+  
+  toClients() {
+    document.getElementById("home")?.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
+
+  toContact() {
+    document.getElementById("home")?.scrollIntoView({
+      behavior: "smooth"
+    })
+  }
 }
