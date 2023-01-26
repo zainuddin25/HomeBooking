@@ -1,0 +1,13 @@
+<div class="container mx-auto pb-14 px-8 pt-32 bg-white-secondary" id="recommentation">
+    <p class="text-sm text-center xl:text-base text-black">Recommendation From us for you</p>
+    <div class="xl:w-2/4 w-full mx-auto">
+        <h1 class="capitalize xl:text-2xl pt-5 font-bold text-black text-base text-center">Find the dream house as you expect from our recommendations</h1>
+        <p class="text-black/50 text-sm xl:text-base text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec nulla commodo, dictum sem sit amet, sollicitudin velit. Mauris accumsan scelerisque lorem, a porttitor elit. Nunc nisi magna, vehicula non imperdiet quis, accumsan quis leo</p>
+    </div>
+    <div class="flex justify-center gap-5 pt-12 pb-7 items-center">
+        <p class="xl:text-xl text-base text-black font-bold cursor-pointer">For Sale</p>
+        <p class="text-black/50 xl:text-base text-sm cursor-pointer">For Rent</p>
+    </div>
+    <app-for-sale *ngIf="forSale"></app-for-sale>
+    <app-for-rent *ngIf="forRent"></app-for-rent>
+</div>

@@ -7,6 +7,9 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { AboutComponent } from './components/about/about.component';
+import { RecommendationComponent } from './components/recommendation/recommendation.component';
+import { ForSaleComponent } from './components/for-sale/for-sale.component';
+import { ForRentComponent } from './components/for-rent/for-rent.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { AboutComponent } from './components/about/about.component';
     LandingPageComponent,
     HeaderComponent,
     HeroComponent,
-    AboutComponent
+    AboutComponent,
+    RecommendationComponent,
+    ForSaleComponent,
+    ForRentComponent
   ],
   imports: [
     BrowserModule,

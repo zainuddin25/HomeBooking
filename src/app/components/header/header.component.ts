@@ -31,7 +31,7 @@ export class HeaderComponent {
   }
 
   toRecommendation() {
-    document.getElementById("home")?.scrollIntoView({
+    document.getElementById("recommentation")?.scrollIntoView({
       behavior: "smooth"
     })
   }

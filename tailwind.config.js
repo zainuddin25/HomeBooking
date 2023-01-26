@@ -6,8 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'black' : '#272635'
+        'black' : '#272635',
+        'white-secondary' : '#F3F3F3',
+        'orange' : '#FE9600'
       },
+      fontFamily: {
+        'work' : 'Work Sans'
+      }
     },
     fontSize: {
       'xxs': '10px',

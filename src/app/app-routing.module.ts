@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { ForSaleComponent } from './components/for-sale/for-sale.component';
+import { ForRentComponent } from './components/for-rent/for-rent.component';
 
 const routes: Routes = [
   {
